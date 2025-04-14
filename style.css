@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#map {
+    height: 100%;
+    width: 80%;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background: #f5f5f5;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.coordinate-input {
+    margin: 20px 0;
+}
+
+.coordinate-input input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#status {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 4px;
+    min-height: 50px;
+}
+
+.leaflet-marker-icon {
+    filter: hue-rotate(120deg);
+}
